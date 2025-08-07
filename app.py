@@ -17,7 +17,7 @@ from nltk.corpus import stopwords
 from transformers import pipeline
 from bertopic import BERTopic
 def get_youtube_service():
-    return build("youtube", "v3", developerKey='AIzaSyDuU1qaxesSqxUVVWgLZObVddbPD57AmB8')
+    return build("youtube", "v3", developerKey='Enter YT-data API key')
 from extract import (
     get_top_channels_by_keyword,
     get_channel_metadata_by_keyword,
@@ -30,9 +30,9 @@ from load import (upload_channel,upload_videos)
 
 
 user = 'postgres'
-password = urllib.parse.quote_plus('Xboxone@453')
-host = 'db.nvfpprsugnjzhplxdqld.supabase.co'
-port = 5432
+password = urllib.parse.quote_plus('Enter Database Password')
+host = 'Enter DB host URL'
+port = #Enter port number
 db = 'postgres'
 
 engine = create_engine(
@@ -534,6 +534,7 @@ elif menu == 'Search Videos':
                 st.error("Failed to load video details.")
                 st.exception(e)
             
+
 
 
 
