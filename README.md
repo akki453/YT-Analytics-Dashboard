@@ -1,39 +1,36 @@
-# YT-Analytics-Dashboard
+# 📺 YT-Analytics-Dashboard
 
-📊 YouTube Video & Channel Analyzer
-A powerful Streamlit-based web app that allows you to analyze YouTube videos and channels to uncover valuable insights using the YouTube Data API and modern NLP techniques like sentiment analysis and topic modeling.
 
-🚀 Features
-🔍 Video Analysis
-Search for videos by title/keyword or video ID
+A Streamlit-based web app to analyze YouTube videos and channels using the YouTube Data API, sentiment analysis, and topic modeling. Gain insights into content performance, audience reactions, and engagement trends.
 
-Fetch video metadata: views, likes, comments, etc.
+---
 
-Perform sentiment analysis on top comments
+## ✨ Features
 
-Identify comment trends over time
+### 🎬 Video Analysis
+- 🔍 Search by keyword or video ID
+- 📊 View video stats: views, likes, comments, etc.
+- 💬 Sentiment analysis of top comments
+- 📈 Comment trends over time
+- 🧠 Topic modeling using NLP (e.g., BERTopic)
 
-Visualize insights through interactive charts
+### 📺 Channel Analysis
+- 🔍 Search by channel name or ID
+- 👥 Get channel stats: subscribers, total views, video count
+- 📅 Analyze publishing frequency and video performance
+- 🧠 Discover top content themes and strategies
 
-📺 Channel Analysis
-Search for channels by name/keyword or channel ID
+---
 
-Fetch channel statistics: subscribers, total views, uploads
+## 🛠️ Tech Stack
 
-Analyze recent video performance
+- **Frontend:** Streamlit
+- **Backend:** Python, YouTube Data API
+- **NLP:** HuggingFace Transformers, BERTopic
+- **Visualization:** Matplotlib, Streamlit charts
+- **Data Handling:** Pandas
 
-View upload frequency and engagement trends
-
-Extract dominant content topics
-
-🧠 Tech Stack
-Python
-
-Streamlit – UI and interactive dashboard
-
-YouTube Data API v3 – Fetching video/channel data
-
-Transformers (HuggingFace) – Sentiment analysis
+---
 
 BERTopic / NLP libraries – Topic modeling on comments
 
