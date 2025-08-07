@@ -3,9 +3,9 @@ import sqlalchemy.types
 import pandas as pd
 import urllib.parse
 user = 'postgres'
-password = urllib.parse.quote_plus('Xboxone@453')
-host = 'db.nvfpprsugnjzhplxdqld.supabase.co'
-port = 5432
+password = urllib.parse.quote_plus('Enter Database Password')
+host = 'Enter DB host URL'
+port = #Enter port number
 db = 'postgres'
 
 engine = create_engine(
@@ -41,3 +41,4 @@ def upload_videos(df_final):
 
 # Then insert new data
     df_final.to_sql('videos', con=engine, if_exists='append', index=False)
+
