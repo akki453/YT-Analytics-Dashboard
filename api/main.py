@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 from typing import List
 import os
 # Set up YouTube API
-api_key = 'AIzaSyDuU1qaxesSqxUVVWgLZObVddbPD57AmB8'
+api_key = 'Enter Your yt-data API key'
 youtube = build('youtube', 'v3', developerKey=api_key)
 
 app = FastAPI()
@@ -161,4 +161,5 @@ def get_all_videos_from_playlist(playlist_id: str):
         return videos
 
     except Exception as e:
+
         raise HTTPException(status_code=500, detail=str(e))
