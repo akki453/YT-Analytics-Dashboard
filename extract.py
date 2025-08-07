@@ -11,7 +11,7 @@ from nltk.corpus import stopwords
 from transformers import pipeline
 from bertopic import BERTopic
 API_URL = "http://localhost:8000"
-api_key = 'AIzaSyDuU1qaxesSqxUVVWgLZObVddbPD57AmB8'
+api_key = 'Enter yt data API key'
 youtube = build('youtube', 'v3', developerKey=api_key)
 def get_top_channels_by_keyword(keyword, max_results=5):
     # Step 1: Search for channels by keyword
@@ -175,3 +175,4 @@ def get_video_comments(video_id):
         st.warning("Failed to fetch comments")
         st.exception(e)
     return comments
+
