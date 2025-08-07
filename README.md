@@ -42,6 +42,18 @@ A Streamlit-based web app to analyze YouTube videos and channels using the YouTu
 4. **Supabase:** Stores fetched data and analysis results.
 5. **UI:** Displays insights through interactive charts and metrics.
 
+### 📺 Channel Analysis Dashboard
+![Channel Dashboard](assets/ScreenShot_20250807144505.jpeg)
+![Channel Dashboard](assets/ScreenShot_20250807144550.jpeg)
+![Channel Dashboard](assets/ScreenShot_20250807144610.jpeg)
+
+
+### 📊 Video Analysis Dashboard
+![Video Dashboard](assets/ScreenShot_20250807144622.jpeg)
+![Video Dashboard](assets/ScreenShot_20250807144640.jpeg)
+![Video Dashboard](assets/ScreenShot_20250807144659.jpeg)
+
+
 ---
 
 
