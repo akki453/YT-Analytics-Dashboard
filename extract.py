@@ -10,7 +10,7 @@ import nltk
 from nltk.corpus import stopwords
 from transformers import pipeline
 from bertopic import BERTopic
-API_URL = "http://localhost:8000"
+API_URL = "https://yt-analytics-dashboard.onrender.com"
 api_key = 'AIzaSyDuU1qaxesSqxUVVWgLZObVddbPD57AmB8'
 youtube = build('youtube', 'v3', developerKey=api_key)
 def get_top_channels_by_keyword(keyword, max_results=5):
@@ -175,3 +175,4 @@ def get_video_comments(video_id):
         st.warning("Failed to fetch comments")
         st.exception(e)
     return comments
+
