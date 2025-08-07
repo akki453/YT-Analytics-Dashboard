@@ -335,7 +335,7 @@ if menu == 'Search Channels':
         max_results = 5
         with st.spinner("Fetching data..."):
             try:
-                url = f"http://localhost:8000/channels?keyword={keyword}&max_results={max_results}"
+                url = f"https://yt-analytics-dashboard.onrender.com/channels?keyword={keyword}&max_results={max_results}"
                 response = requests.get(url)
 
                 if response.status_code == 200:
@@ -534,6 +534,7 @@ elif menu == 'Search Videos':
                 st.error("Failed to load video details.")
                 st.exception(e)
             
+
 
 
 
