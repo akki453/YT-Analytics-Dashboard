@@ -1,0 +1,15 @@
+sqlalchemy
+pandas
+google-api-python-client
+streamlit
+streamlit-option-menu
+urllib3
+seaborn
+matplotlib
+requests
+nltk
+transformers
+bertopic
+python-dotenv
+fastapi
+pydantic
